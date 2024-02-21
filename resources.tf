@@ -10,6 +10,6 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
   ami = "ami-0f960def03d1071d3"
   tags={
-    Name = "ExampleInstance"
+    Name = "Terraform_Assignment_Instance"
   }
 }
