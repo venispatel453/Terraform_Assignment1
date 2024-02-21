@@ -1,7 +1,7 @@
 
 # EC2 Instance creation by Terraform 
 
-This project utilizes Terraform to provision an EC2 Instance on AWS  
+This project utilizes Terraform to provision an EC2 Instance on AWS .
 
 
 ## Overview
