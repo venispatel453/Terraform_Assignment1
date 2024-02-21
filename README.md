@@ -17,7 +17,7 @@ The goal of this project is to automate the provisioning of an EC2 instance usin
     ```bash
     terraform init
     ```
-    ![terraform init](Images\Init.png)
+    ![terraform init](https://github.com/venispatel453/Terraform_Assignment1/blob/main/Images/Init.png)
 
 2. **Validate Terraform Configuration**:
 
@@ -25,7 +25,7 @@ The goal of this project is to automate the provisioning of an EC2 instance usin
     terraform validate
     ```
 
-    ![terraform validate](Images\Validate.png)
+    ![terraform validate](https://github.com/venispatel453/Terraform_Assignment1/blob/main/Images/Validate.png)
 
 3. **Review and Customize Configuration**:
    
@@ -36,10 +36,10 @@ The goal of this project is to automate the provisioning of an EC2 instance usin
     ```bash
     terraform apply
     ```
-    ![terraform apply](Images\apply.png)
+    ![terraform apply](https://github.com/venispatel453/Terraform_Assignment1/blob/main/Images/apply.png)
    This command will create the specified EC2 instance and associated resources on AWS.Here we can see the Instance has been created. 
 
-   ![terraform Instance](Images\Instance_Created.png)
+   ![terraform Instance](https://github.com/venispatel453/Terraform_Assignment1/blob/main/Images/Instance_Created.png)
 
 5. **Destroy Resources**:
 
@@ -48,7 +48,7 @@ The goal of this project is to automate the provisioning of an EC2 instance usin
     ```bash
     terraform destroy
     ```
-    ![terraform Destroy](Images\Destroy.png)
+    ![terraform Destroy](https://github.com/venispatel453/Terraform_Assignment1/blob/main/Images/Destroy.png)
 
 ## File Structure
 
