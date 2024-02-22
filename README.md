@@ -10,6 +10,13 @@ The goal of this project is to automate the provisioning of an EC2 instance usin
 ## Prerequisites
 - We should have installed Terraform on our local machine
 - we should have an AWS account installed and configured it through command prompts. 
+
+# Terraform Version
+
+| Used Terraform Version |
+|------------------------|
+| 1.3.0                  |
+
 ## Usage
 
 1. **Initialize the Terraform directory**:
@@ -29,8 +36,13 @@ The goal of this project is to automate the provisioning of an EC2 instance usin
 
 3. **Review and Customize Configuration**:
    
-   Review the `main.tf`, `resources.tf`, and `network.tf` files to understand the configuration parameters. Customize these files according to your requirements, such as instance type, AMI, security groups, etc.
+   Review the `main.tf`, `resources.tf`, and `network.tf` files to understand the configuration parameters. Customize these files according to your requirements, such as instance type, AMI, security groups, etc. We can use terraform plan and then check if it is correct then we can apply the changes. 
 
+   ```bash
+    terraform plan
+    ```
+    ![terraform plan](https://github.com/venispatel453/Terraform_Assignment1/blob/main/Images/plan.png)
+    
 4. **Apply Terraform Changes**:
 
     ```bash
